@@ -5,21 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Google Homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
     
 <div class="navbar">
+    <div class="container">
+        <div class="leftNav">
+            <ul>
+                <li>About</li>
+                <li>Store</li>
+            </ul>
+        </div>
 
-    <ul class="">
-        <li>Gmail</li>
-        <li>Images</li>
-        <li><i class="fas fa-th"></i></li>
-        <li><i class="fas fa-bell"></i></li>
-        <li><i class="fas fa-user-circle"></i></li>
-    </ul>
+        <div class="rightNav">
+            <ul>
+                <li>Gmail</li>
+                <li>Images</li>
+                <li><i class="fas fa-th fa-lg"></i></li>
+                <li><i class="fas fa-bell fa-lg"></i></li>
+                <li><i class="fas fa-user-circle fa-2x"></i></li>
+            </ul>
+        </div>
+    </div>
 </div>
+
+<div class="clearAll"></div>
 
 <div class="main">
 
@@ -32,15 +44,17 @@
 
     <div class="searchButtons">
         <div class="search">
-            <button></button>
+            <button><p>Google Search</p></button>
         </div>
-        <div class="lucky">
-            <button></button>
+        <div class="search">
+            <button><p>I'm feeling lucky</p></button>
         </div>
     </div>
 
+    <div class="clearAll"></div>
+
     <div class="googlePromo">
-        <img src="imgs/Screen Shot 2018-11-05 at 16.56.51.png" alt=""> Help your children <a href="#">Be Internet Legends</a> and stay safe online
+        <img src="imgs/Screen Shot 2018-11-05 at 16.56.51.png" alt=""><p> Help your children <a href="#">Be Internet Legends</a> and stay safe online</p>
     </div>
 
 </div>
@@ -48,12 +62,16 @@
 
 <div class="footer">
     <div class="footerTop">
-        <li><a href="#">Kingdom</a></li>
+        <li><a href="#">United Kingdom</a></li>
     </div>
-    <div class="footerBottom">
+    <div class="footerBottomleft">
         <li><a href="#">Advertising</a></li>
         <li><a href="#">Business</a></li>
-        <li><a href="#">About</a></li>
+    </div>
+    <div class="footerBottomright">
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Settings</li>
     </div>
 </div>
 
