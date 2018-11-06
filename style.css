@@ -99,28 +99,45 @@ body {
     background: #F2F2F2;
     overflow: hidden;
     margin-top: 3em;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    
 }
 
 .footer li {
     list-style: none;
     display: inline;
-    padding: .5em;
+    vertical-align: middle;
 }
 
 .footer li a {
     text-decoration: none;
-    color: inherit;
+    color: inherit; 
 }
 
+.footer hr {
+    padding: 0;
+    margin: 0;
+}
 .footerTop {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
+    padding: 1em 0;
 
+}
 .footerBottomleft {
     float: left;
+    padding: 1em 0;
+}
+
+.footerBottomleft li {
+ padding-right: 1em;
 }
 
 .footerBottomright {
-    float: right
+    float: right;
+    padding: 1em 0;
+}
+
+.footerBottomright li {
+    padding-left: 1em;
 }
